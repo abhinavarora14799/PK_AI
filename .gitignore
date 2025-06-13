@@ -1,0 +1,43 @@
+# Virtual Environment
+venv/
+env/
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Output Files
+output_excel/
+temp_images/
+
+# Log Files
+*.log
+paddleocr.log
+
+# Model Cache
+.cache/
+~/.paddlex/
+
+# Temporary Files
+*.tmp
+*.temp 

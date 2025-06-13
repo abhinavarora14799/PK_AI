@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manufacturing Parts Log - v2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+        body {
+            font-family: sans-serif;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 2px solid #333; /* Outer border */
+        }
+        th, td {
+            border: 1px solid #888; /* Inner cell borders */
+            padding: 12px;
+            text-align: left;
+        }
+        thead {
+            background-color: #e9ecef;
+        }
+        th {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        tbody td {
+            font-family: 'Kalam', cursive;
+            font-size: 18px;
+            line-height: 1.4;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #fdfdfd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Manufacturing Parts Log</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Part Number</th>
+                    <th>Machine Number</th>
+                    <th>Diameter (mm)</th>
+                    <th>Length (cm)</th>
+                    <th>Tolerance (mm)</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>XJ-901-F</td>
+                    <td>M-15</td>
+                    <td>5.5</td>
+                    <td>8.1</td>
+                    <td>&plusmn;0.01</td>
+                    <td>800</td>
+                </tr>
+                <tr>
+                    <td>R2-118-B</td>
+                    <td>M-02</td>
+                    <td>30.0</td>
+                    <td>22.5</td>
+                    <td>&plusmn;0.15</td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                    <td>XJ-755-A</td>
+                    <td>M-09</td>
+                    <td>16.25</td>
+                    <td>19.0</td>
+                    <td>&plusmn;0.06</td>
+                    <td>350</td>
+                </tr>
+                <tr>
+                    <td>BV-202-C</td>
+                    <td>M-02</td>
+                    <td>11.0</td>
+                    <td>50.0</td>
+                    <td>&plusmn;0.10</td>
+                    <td>120</td>
+                </tr>
+                <tr>
+                    <td>R2-340-G</td>
+                    <td>M-11</td>
+                    <td>7.8</td>
+                    <td>14.2</td>
+                    <td>&plusmn;0.04</td>
+                    <td>1200</td>
+                </tr>
+                 <tr>
+                    <td>XJ-901-G</td>
+                    <td>M-15</td>
+                    <td>5.5</td>
+                    <td>9.3</td>
+                    <td>&plusmn;0.01</td>
+                    <td>420</td>
+                </tr>
+                 <tr>
+                    <td>BV-550-D</td>
+                    <td>M-07</td>
+                    <td>28.5</td>
+                    <td>31.0</td>
+                    <td>&plusmn;0.09</td>
+                    <td>190</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
